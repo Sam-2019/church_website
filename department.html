@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- head -->
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co/Z6VTrzX/favicon.png"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ICGC Elim Temple</title>
+
+    <!-- Stylesheets -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Owl Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css"
+    />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-158205846-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-158205846-1");
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+      }
+
+      .number {
+        color: white;
+      }
+      .animate:hover {
+        transform: translateY(-7px);
+        transition: all 0.2s ease-in-out;
+      }
+
+      .black {
+        background: #000000;
+      }
+
+      .orange {
+        background: #fd7e14;
+      }
+
+      .animate2 {
+        animation: grow-shrink 4s ease-out infinite;
+      }
+
+      .awesome {
+        color: rgb(72, 75, 78);
+        font-size: 30px;
+      }
+
+      .wa .fb .twitter .instagram {
+        font-size: 40px;
+      }
+
+      .wa:hover,
+      .wa:focus {
+        color: white;
+        background-color: #25d366;
+      }
+
+      .fb:hover,
+      .fb:focus {
+        color: white;
+        background-color: #1b478f;
+      }
+
+      .twitter:hover,
+      .twitter:focus {
+        color: white;
+        background-color: #007bff;
+      }
+
+      .instagram:hover,
+      .instagram:focus {
+        color: white;
+        background: linear-gradient(
+          45deg,
+          #f09433 0%,
+          #e6683c 25%,
+          #dc2743 50%,
+          #cc2366 75%,
+          #bc1888 100%
+        );
+      }
+
+      .youtube:hover,
+      .youtube:focus {
+        background-color: red;
+        color: white;
+      }
+
+      .bg-deeporange {
+        background: rgb(180, 26, 37);
+      }
+
+      .bg-deepblue {
+        background: rgb(17, 22, 88);
+      }
+
+      .bg {
+        background: linear-gradient(
+          45deg,
+          #18bc4c 0%,
+          #23cc3c 25%,
+          #27dc2d 50%,
+          #97e63c 75%,
+          #bef033 100%
+        );
+      }
+
+      .bdg {
+        background: linear-gradient(
+          45deg,
+          #bef033 0%,
+          #97e63c 25%,
+          #27dc2d 50%,
+          #23cc3c 75%,
+          #18bc4c 100%
+        );
+      }
+
+      .grid-container {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 0px 80% 0px -10%;
+        width: 100%;
+      }
+
+      .fadedblack {
+        background: #333;
+      }
+
+      /* The Close Button */
+      .close {
+        color: #aaa;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: tomato;
+        cursor: pointer;
+      }
+
+      a.scrollup {
+        color: #fff;
+        height: 40px;
+        width: 40px;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        text-decoration: none;
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        border-radius: 50%;
+        z-index: 999;
+      }
+      a.scrollup:hover {
+        opacity: 1;
+        background-color: #ddd;
+        color: #1bbd36;
+      }
+
+      a.links {
+        color: #fff;
+      }
+      a.links:hover {
+        color: #0eb814;
+      }
+
+      a:hover {
+        animation: grow-shrink 4s ease-out infinite;
+      }
+
+      .inner {
+        max-width: 1024px;
+        margin: 0px auto;
+        text-align: center;
+      }
+
+      /*main element*/
+
+      /*icon styling here*/
+
+      /*main element*/
+      .pulse-icon {
+        position: relative;
+        display: inline-block;
+      }
+      /*icon styling here*/
+      .pulse-icon .icon-wrap {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        color: #6a1b9a;
+        background: #efefef;
+        position: relative;
+        z-index: 1;
+      }
+      .pulse-icon .icon {
+        line-height: 60px;
+        font-size: 1.75em;
+        animation: grow-shrink 4s ease-out infinite;
+      }
+
+      /*container of all circles and pulses*/
+      .pulse-icon .elements {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+      }
+      .pulse-icon .circle {
+        border-radius: 50%;
+        position: absolute;
+      }
+      .pulse-icon .circle-inner {
+        width: 80px;
+        height: 80px;
+        top: -10px;
+        left: -10px;
+        background: linear-gradient(
+          -180deg,
+          rgba(255, 255, 255, 0.12) 0%,
+          rgba(255, 255, 255, 0.1) 100%
+        );
+        animation: grow-circles 4s linear infinite both;
+      }
+      .pulse-icon .circle-outer {
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(
+          -180deg,
+          rgba(255, 255, 255, 0.12) 0%,
+          rgba(255, 255, 255, 0.1) 100%
+        );
+        top: -20px;
+        left: -20px;
+        animation: grow-circles 4s linear infinite both;
+      }
+
+      /*series of x pulses of differing sizes*/
+      .pulse-icon .pulse {
+        position: absolute;
+        animation: pulse-wave 4s linear infinite both;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .pulse-icon .pulse-1 {
+        border: solid 1px rgba(255, 255, 255, 0.25);
+        width: 100px;
+        height: 100px;
+        top: -20px;
+        left: -20px;
+      }
+      .pulse-icon .pulse-2 {
+        border: solid 1px rgba(255, 255, 255, 0.35);
+        width: 150px;
+        height: 150px;
+        top: -45px;
+        left: -45px;
+      }
+      .pulse-icon .pulse-3 {
+        border: solid 1px rgba(255, 255, 255, 0.45);
+        width: 200px;
+        height: 200px;
+        top: -70px;
+        left: -70px;
+      }
+
+      /*Animation for the outewards pulsating waves*/
+      @keyframes pulse-wave {
+        0% {
+          opacity: 0;
+          transform: scale(0.1);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(0.5);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(1);
+        }
+      }
+
+      /*animation for the inner and outer wave items to grow*/
+      @keyframes grow-circles {
+        0% {
+          opacity: 0.85;
+          transform: scale(1);
+        }
+        15% {
+          opacity: 1;
+          transform: scale(1.05);
+        }
+        30% {
+          opacity: 0.85;
+          transform: scale(1);
+        }
+      }
+
+      /*animation for the icon to slightly grow and shrink*/
+      @keyframes grow-shrink {
+        0% {
+          transform: scale(1);
+        }
+        15% {
+          transform: scale(1.1);
+        }
+        30% {
+          transform: scale(1);
+        }
+      }
+
+      .fadeIn {
+        animation-duration: 2s;
+        animation-delay: 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow"
+      role="navigation"
+    >
+      <a class="navbar-brand" href="index.html.html"
+        ><img
+          src="https://i.ibb.co/ynpt3vn/logo6.png"
+          alt="Placeholder image"
+          width="200"
+          class="img-responsive"
+      /></a>
+
+      <button
+        type="button"
+        class="navbar-toggler collapsed"
+        data-toggle="collapse"
+        data-target=".navbar-collapse.collapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse  justify-content-end"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav text-center ">
+          <a class="nav-item nav-link" href="">Home</a>
+          <a class="nav-item nav-link" href="">About Us</a>
+          <a class="nav-item nav-link" href="">Departments</a>
+          <a class="nav-item nav-link" href="">Gallery</a>
+          <a class="nav-item nav-link" href="">Media</a>
+          <a class="nav-item nav-link" href="">Contacts</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- large screen -->
+    <div class="d-none d-sm-block">
+      <div class="container">
+        <!-- Men -->
+        <div class="row mt-3">
+          <div class="col-md-5">
+            <div class="card text-white">
+              <img
+                src="https://i.ibb.co/q70TKtb/1.jpg"
+                class="card-img-top rounded shadow"
+                alt="..."
+              />
+              <div class="card-img-overlay text-center">
+                <h1 class="display-4  mt-5">Men Ministry</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7 text-center">
+            <div class="card-body">
+              <h4 class="mt-3">Mighty Men Of Valour (MMV)</h4>
+              <p class="class-text">
+                As men are ordained as head of the home, there is need that we
+                are sharpens and be responsible to face any challenge. As a
+                result of this Men at Elim Temple instituted a scholarship
+                scheme to support needy children in the church further their
+                education
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Men -->
+
+        <!-- Women -->
+        <div class="row mt-3 ">
+          <div class="col-md-7 text-center">
+            <!-- Events -->
+            <div class="card-body">
+              <h4 class="mt-3 ">Precious Vessels Of Virtue (PVV)</h4>
+              <div id="departments">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <p class="card-text">
+                      PVV are sisters in one Body, whose mission is to see every
+                      woman develop into the fullness of the virtuous woman God
+                      intended for her to be. Our goals are to manifest the
+                      standards of Christ in every way; to grow in the Love of
+                      God; to promote oneness and unity with a sense of family;
+                      to represent the image and display the character of Jesus
+                      Christ.
+                    </p>
+                  </div>
+
+                  <div class="item">
+                    <p class="card-text">
+                      We intend to achieve these goals by pursuing the following
+                      objectives: To grow in the grace and knowledge of God
+                      through Bible studies. To host edifying, fun-filled
+                      activities, such as luncheons, teas, coffees and retreats
+                      To enhance our personal relationship with God through
+                      monthly fellowships, events and seminars To encourage
+                      women to develop in the character of Christ To teach women
+                      to walk in wholeness through the Word of God — spirit,
+                      soul and body.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="card text-white">
+              <img
+                src="https://i.ibb.co/q70TKtb/1.jpg"
+                class="card-img-top rounded shadow"
+                alt="..."
+              />
+              <div class="card-img-overlay text-center">
+                <h1 class="display-4  mt-3">Women Ministry</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Women -->
+
+        <!-- Omega -->
+        <div class="row mt-3">
+          <div class="col-md-5">
+            <div class="card text-white">
+              <img
+                src="https://i.ibb.co/q70TKtb/1.jpg"
+                class="card-img-top rounded shadow"
+                alt="..."
+              />
+              <div class="card-img-overlay text-center">
+                <h1 class="display-4  mt-3">Omega Generation</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7 text-center">
+            <div class="card-body">
+              <h4 class="mt-3">Youth Ministry</h4>
+              <p class="card-text">
+                Its a ministry for all teenagers in the church. This ministry
+                offers the platform and provide opportunities for them to know
+                more of Jesus Christ in this early stage of life though regular
+                Sunday session and other activities that exposes them to the
+                thing of the Lord
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Omega -->
+
+        <!-- Children -->
+        <div class="row mt-3 mb-3">
+          <div class="col-md-7 text-center ">
+            <div class="card-body">
+              <h4 class="mt-3 ">Children Ministry</h4>
+              <div id="departments">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <p class="card-text ">
+                      Children are our future. Recent events indicate that the
+                      world is becoming evil and darker around us, it’s
+                      extremely important and our responsibility to provide our
+                      children with a solid foundation in the word of God.At
+                      Elim Temple, a necessary foundation is built throughout
+                      each age level with the same emphasis as adults. Children
+                      are exposed to and taught the word of God at a tender age.
+                    </p>
+                  </div>
+                  <div class="item">
+                    <p class="card-text">
+                      It is our belief and responsibility to position the saints
+                      in the world as leaders thoroughly equip with the word of
+                      God. This ministry provides nurturing and loving
+                      environment for infants, toddlers and teenagers to learn
+                      to hear the voice of God, know God and His purpose.
+                      Dominion Kids participate in Praise &amp; Worship, Prayer,
+                      Bible studies, Story time, Music and many fun activities.
+                    </p>
+                  </div>
+                  <div class="item">
+                    <p class="card-text">
+                      They learn to memorize and recite scriptures, reference
+                      the Bible for Salvation, Healing, Faith and Prayer etc.;
+                      and are able to apply the principles of leading someone to
+                      Christ. Much more Elim Kids know how to be occupied with
+                      Jesus. Our teams of Spirit-filled teachers are well
+                      equipped to provide the molding of children from toddler
+                      years to age thirteen.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="card text-white">
+              <img
+                src="https://i.ibb.co/ZHHbhH9/child.png"
+                class="card-img-top rounded shadow"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Children -->
+      </div>
+    </div>
+    <!-- large screen -->
+
+    <!-- mobile -->
+    <div class="d-none d-block d-sm-none">
+      <div class="container">
+        <!-- Men -->
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <div class="card ">
+              <img
+                src="https://i.ibb.co/q70TKtb/1.jpg"
+                class="card-img-top rounded shadow"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col-md-12 text-center">
+            <div class="card-body">
+              <h4 class="">Mighty Men Of Valour (MMV)</h4>
+              <p class="class-text">
+                As men are ordained as head of the home, there is need that we
+                are sharpens and be responsible to face any challenge. As a
+                result of this Men at Elim Temple instituted a scholarship
+                scheme to support needy children in the church further their
+                education
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Men -->
+
+        <!-- Women -->
+        <div class="row mt-2">
+          <div class="col-md-12">
+            <div class="card ">
+              <img
+                src="https://i.ibb.co/q70TKtb/1.jpg"
+                class="card-img-top rounded shadow"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col-md-12 text-center">
+            <div class="card-body">
+              <h4 class="">Precious Vessels Of Virtue (PVV)</h4>
+              <!-- Events -->
+              <div id="departments">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <p class="card-text">
+                      PVV are sisters in one Body, whose mission is to see every
+                      woman develop into the fullness of the virtuous woman God
+                      intended for her to be. Our goals are to manifest the
+                      standards of Christ in every way; to grow in the Love of
+                      God; to promote oneness and unity with a sense of family;
+                      to represent the image and display the character of Jesus
+                      Christ.
+                    </p>
+                  </div>
+
+                  <div class="item">
+                    <p class="card-text">
+                      We intend to achieve these goals by pursuing the following
+                      objectives: To grow in the grace and knowledge of God
+                      through Bible studies. To host edifying, fun-filled
+                      activities, such as luncheons, teas, coffees and retreats
+                      To enhance our personal relationship with God through
+                      monthly fellowships, events and seminars To encourage
+                      women to develop in the character of Christ To teach women
+                      to walk in wholeness through the Word of God — spirit,
+                      soul and body.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Events -->
+        </div>
+        <!-- Women -->
+
+        <!-- Omega -->
+        <div class="row mt-2">
+          <div class="col-md-12">
+            <div class="card ">
+              <img
+                src="https://i.ibb.co/q70TKtb/1.jpg"
+                class="card-img-top rounded shadow"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <!-- Omega -->
+          <div class="col-md-12 text-center">
+            <div class="card-body">
+              <h4>Youth Ministry</h4>
+
+              <p class="card-text">
+                Its a ministry for all teenagers in the church. This ministry
+                offers the platform and provide opportunities for them to know
+                more of Jesus Christ in this early stage of life though regular
+                Sunday session and other activities that exposes them to the
+                thing of the Lord
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Omega -->
+
+        <!-- Children -->
+        <div class="row mb-2">
+          <div class="col-md-12">
+            <div class="card ">
+              <img
+              src="https://i.ibb.co/ZHHbhH9/child.png"
+                class="card-img-top rounded shadow"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-md-12 text-center">
+            <div class="card-body">
+              <h4>Children Ministry</h4>
+              <div id="departments">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <p class="card-text ">
+                      Children are our future. Recent events indicate that the
+                      world is becoming evil and darker around us, it’s
+                      extremely important and our responsibility to provide our
+                      children with a solid foundation in the word of God. At
+                      Elim Temple, a necessary foundation is built throughout
+                      each age level with the same emphasis as adults. Children
+                      are exposed to and taught the word of God at a tender age.
+                    </p>
+                  </div>
+                  <div class="item">
+                    <p class="card-text">
+                      Children are exposed to and taught the word of God at a
+                      tender age. It is our belief and responsibility to
+                      position the saints in the world as leaders thoroughly
+                      equip with the word of God. This ministry provides
+                      nurturing and loving environment for infants, toddlers and
+                      teenagers to learn to hear the voice of God, know God and
+                      His purpose. Dominion Kids participate in Praise &amp;
+                      Worship, Prayer, Bible studies, Story time, Music and many
+                      fun activities.
+                    </p>
+                  </div>
+
+                  <div class="item">
+                    <p class="card-text">
+                      They learn to memorize and recite scriptures, reference
+                      the Bible for Salvation, Healing, Faith and Prayer etc.;
+                      and are able to apply the principles of leading someone to
+                      Christ. Much more Elim Kids know how to be occupied with
+                      Jesus. Our teams of Spirit-filled teachers are well
+                      equipped to provide the molding of children from toddler
+                      years to age thirteen.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Children -->
+      </div>
+    </div>
+    <!-- mobile -->
+
+    <!-- Guidance -->
+    <div class="orange py-4">
+      <div class="container text-center">
+        <div class="row ">
+          <div class=" col-md-12">
+            <h4 class="text-white">Need Guidance and Counselling?</h4>
+          </div>
+
+          <div class=" col-md-12 d-none d-sm-block">
+            <span class="number lead animated fadeInRight">
+              (+233) 271 707 777</span
+            >
+            <a class="tool-tip text-decoration-none reveal">
+              <div class="pulse-icon">
+                <div class="icon-wrap">
+                  <i class="icon fas fa-phone" aria-hidden=""></i>
+                </div>
+                <div class="elements">
+                  <div class="circle circle-outer"></div>
+                  <div class="circle circle-inner"></div>
+                  <div class="pulse pulse-1"></div>
+                  <div class="pulse pulse-2"></div>
+                  <div class="pulse pulse-3"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class=" col-md-12 d-none d-block d-sm-none">
+            <a href="tel:+233271707777" class="tool-tip text-decoration-none">
+              <div class="pulse-icon">
+                <div class="icon-wrap">
+                  <i class="icon fas fa-phone" aria-hidden=""></i>
+                </div>
+                <div class="elements">
+                  <div class="circle circle-outer"></div>
+                  <div class="circle circle-inner"></div>
+                  <div class="pulse pulse-1"></div>
+                  <div class="pulse pulse-2"></div>
+                  <div class="pulse pulse-3"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Guidance -->
+
+    <!-- Footer -->
+    <div class="black">
+      <div class="container">
+        <div class="row text-center ">
+          <div class="col-md-12">
+            <div class="grid-container text-center mt-">
+              <div class="grid-item animate2 wa">
+                <a
+                  tccltracking="click"
+                  typography="ButtonAlpha"
+                  rel="noopener"
+                  data-ux="Button"
+                  href="https://wa.me/233244434000"
+                  target="_blank"
+                  data-aid="CONTACT_INFO_WHATS_APP_REND"
+                  data-route="whatsApp"
+                  data-tccl="ux2.contact.whatsapp.click,click"
+                  class="tool-tip text-decoration-none  awesome"
+                >
+                  <span class="">
+                    <i class="icon fab fa-whatsapp wa"></i>
+                  </span>
+                </a>
+              </div>
+
+              <div class="grid-item animate2 fb">
+                <a
+                  href="../web.facebook.com/elimtemplec9ef.html"
+                  class="tool-tip text-decoration-none awesome "
+                >
+                  <span class="">
+                    <i class="icon fab fa-facebook-square fb"></i>
+                  </span>
+                </a>
+              </div>
+
+              <div class="grid-item  animate2 twitter">
+                <a
+                  href="../twitter.com/icgcelimtemple.html"
+                  class="tool-tip text-decoration-none awesome"
+                >
+                  <span>
+                    <i class="icon fab fa-twitter  twitter"></i>
+                  </span>
+                </a>
+              </div>
+
+              <div class="grid-item  animate2 instagram">
+                <a
+                  href="../www.instagram.com/icgc.elimtemple/index.html"
+                  class="tool-tip text-decoration-none awesome"
+                >
+                  <span class=" ">
+                    <i class="icon fab fa-instagram instagram"></i>
+                  </span>
+                </a>
+              </div>
+
+              <div class="grid-item  animate2 youtube">
+                <a
+                  href="../www.youtube.com/channel/UCrT4GvNXMFIbu9TAN0Y5XRw.html"
+                  class="tool-tip text-decoration-none awesome"
+                >
+                  <span>
+                    <i class="icon fab fa-youtube youtube "></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <img
+              src="https://i.ibb.co/ynpt3vn/logo6.png"
+              alt="Logo"
+              width="200"
+              class=""
+            />
+          </div>
+
+          <div class="col-md-12 mb-1">
+            <span class="text-dark"> © 2020 All Rights Reserved</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <!-- javascript -->
+    <script></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script
+      src="https://kit.fontawesome.com/09c0beb225.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      var owl = $("#departments .owl-carousel");
+      owl.owlCarousel({
+        smartSpeed: 1000,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: false,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      });
+
+      $(".number").hide();
+      $(".reveal").on("click", function() {
+        $(".number").toggle();
+      });
+    </script>
+  </body>
+</html>
