@@ -71,54 +71,85 @@
         font-family: "Montserrat", sans-serif;
         font-size: 14px;
       }
-
+    
+      .banner {
+        border-bottom-left-radius: 50% 20%;
+        border-bottom-right-radius: 50% 20%;
+      }
+    
+      .title {
+        z-index: 5;
+        margin-top: -15%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+      }
+    
+      .title2 {
+        z-index: 5;
+        margin-top: -20%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+      }
+    
+      .showy {
+        z-index: 20;
+        position: sticky;
+      }
+    
+      .showy2 {
+        z-index: 20;
+        margin-top: -7%;
+        position: sticky;
+      }
+    
       .number {
         color: white;
       }
+    
       .animate:hover {
         transform: translateY(-7px);
         transition: all 0.2s ease-in-out;
       }
-
+    
       .black {
         background: #000000;
       }
-
+    
       .orange {
         background: #fd7e14;
       }
-
+    
       .animate2 {
         animation: grow-shrink 4s ease-out infinite;
       }
-
+    
       .awesome {
         color: rgb(72, 75, 78);
         font-size: 30px;
       }
-
+    
       .wa .fb .twitter .instagram {
         font-size: 40px;
       }
-
+    
       .wa:hover,
       .wa:focus {
         color: white;
         background-color: #25d366;
       }
-
+    
       .fb:hover,
       .fb:focus {
         color: white;
         background-color: #1b478f;
       }
-
+    
       .twitter:hover,
       .twitter:focus {
         color: white;
         background-color: #007bff;
       }
-
+    
       .instagram:hover,
       .instagram:focus {
         color: white;
@@ -131,21 +162,21 @@
           #bc1888 100%
         );
       }
-
+    
       .youtube:hover,
       .youtube:focus {
         background-color: red;
         color: white;
       }
-
+    
       .bg-deeporange {
         background: rgb(180, 26, 37);
       }
-
+    
       .bg-deepblue {
         background: rgb(17, 22, 88);
       }
-
+    
       .bg {
         background: linear-gradient(
           45deg,
@@ -156,7 +187,7 @@
           #bef033 100%
         );
       }
-
+    
       .bdg {
         background: linear-gradient(
           45deg,
@@ -167,29 +198,29 @@
           #18bc4c 100%
         );
       }
-
+    
       .grid-container {
         display: inline-grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         padding: 0px 80% 0px -10%;
         width: 100%;
       }
-
+    
       .fadedblack {
         background: #333;
       }
-
+    
       /* The Close Button */
       .close {
         color: #aaa;
       }
-
+    
       .close:hover,
       .close:focus {
         color: tomato;
         cursor: pointer;
       }
-
+    
       a.scrollup {
         color: #fff;
         height: 40px;
@@ -209,33 +240,30 @@
         background-color: #ddd;
         color: #1bbd36;
       }
-
+    
       a.links {
         color: #fff;
       }
       a.links:hover {
         color: #0eb814;
       }
-
+    
       a:hover {
         animation: grow-shrink 4s ease-out infinite;
       }
-
+    
       .inner {
         max-width: 1024px;
         margin: 0px auto;
         text-align: center;
       }
-
-      /*main element*/
-
-      /*icon styling here*/
-
+    
       /*main element*/
       .pulse-icon {
         position: relative;
         display: inline-block;
       }
+    
       /*icon styling here*/
       .pulse-icon .icon-wrap {
         position: relative;
@@ -255,7 +283,7 @@
         font-size: 1.75em;
         animation: grow-shrink 4s ease-out infinite;
       }
-
+    
       /*container of all circles and pulses*/
       .pulse-icon .elements {
         position: absolute;
@@ -291,7 +319,7 @@
         left: -20px;
         animation: grow-circles 4s linear infinite both;
       }
-
+    
       /*series of x pulses of differing sizes*/
       .pulse-icon .pulse {
         position: absolute;
@@ -320,7 +348,7 @@
         top: -70px;
         left: -70px;
       }
-
+    
       /*Animation for the outewards pulsating waves*/
       @keyframes pulse-wave {
         0% {
@@ -336,7 +364,7 @@
           transform: scale(1);
         }
       }
-
+    
       /*animation for the inner and outer wave items to grow*/
       @keyframes grow-circles {
         0% {
@@ -352,7 +380,7 @@
           transform: scale(1);
         }
       }
-
+    
       /*animation for the icon to slightly grow and shrink*/
       @keyframes grow-shrink {
         0% {
@@ -365,7 +393,7 @@
           transform: scale(1);
         }
       }
-
+    
       .fadeIn {
         animation-duration: 2s;
         animation-delay: 1s;
@@ -400,9 +428,9 @@
         id="navbarNavAltMarkup"
       >
         <div class="navbar-nav text-center ">
-          <a class="nav-item nav-link" href="index.html">Home</a>
+          <a class="nav-item nav-link " href="index.html">Home</a>
           <a class="nav-item nav-link" href="about us.html">About Us</a>
-          <a class="nav-item nav-link" href="department.html">Departments</a>
+          <a class="nav-item nav-link active" href="department.html">Departments</a>
           <a class="nav-item nav-link" href="">Gallery</a>
           <a class="nav-item nav-link" href="media.html">Media</a>
           <a class="nav-item nav-link" href="contact.html">Contacts</a>
@@ -410,350 +438,333 @@
       </div>
     </nav>
     <!-- Navbar -->
+
+    <div class="">
+      <img
+        src="https://i.ibb.co/9pFRCmH/samEC2.png"
+        class="card-img-top   banner"
+        alt="..."
+      />
+    </div>
+
     <!-- large screen -->
-    <div class="d-none d-sm-block">
-      <div class="container">
-        <!-- Men -->
-        <div class="row mt-3">
-          <div class="col-md-5">
-            <div class="card text-white">
-              <img
-                src="https://i.ibb.co/q70TKtb/1.jpg"
-                class="card-img-top rounded shadow"
-                alt="..."
-              />
-              <div class="card-img-overlay text-center">
-                <h1 class="display-4  mt-5">Men Ministry</h1>
+    <div class=" d-none d-sm-block ">
+      <h1 class="title font-italic display-4 mb-5 ">Departments</h1>
+      <div class="container  ">
+        <div class=" bg-white rounded  showy ">
+          <div class="card-body ">
+            <!-- Men -->
+            <div class="row mt-3 ">
+              <div class="col-md-5">
+                <div class="card text-white">
+                  <img
+                    src="https://i.ibb.co/q70TKtb/1.jpg"
+                    class="card-img-top rounded shadow"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay text-center">
+                    <h1 class="display-4 mt-4">Men Ministry</h1>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-7 text-center">
+                <div class="card-body">
+                  <h4 class="mt-3">Mighty Men Of Valour (MMV)</h4>
+                  <p class="class-text">
+                    As men are ordained as head of the home, there is need that
+                    we are sharpens and be responsible to face any challenge. As
+                    a result of this Men at Elim Temple instituted a scholarship
+                    scheme to support needy children in the church further their
+                    education
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+            <!-- Men -->
 
-          <div class="col-md-7 text-center">
-            <div class="card-body">
-              <h4 class="mt-3">Mighty Men Of Valour (MMV)</h4>
-              <p class="class-text">
-                As men are ordained as head of the home, there is need that we
-                are sharpens and be responsible to face any challenge. As a
-                result of this Men at Elim Temple instituted a scholarship
-                scheme to support needy children in the church further their
-                education
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Men -->
+            <!-- Women -->
+            <div class="row mt-3 ">
+              <div class="col-md-7 text-center">
+                <!-- Events -->
+                <div class="card-body">
+                  <h4 class="mt-3 ">Precious Vessels Of Virtue (PVV)</h4>
+                  <div id="departments">
+                    <div class="owl-carousel owl-theme">
+                      <div class="item">
+                        <p class="card-text">
+                          PVV are sisters in one Body, whose mission is to see
+                          every woman develop into the fullness of the virtuous
+                          woman God intended for her to be. Our goals are to
+                          manifest the standards of Christ in every way; to grow
+                          in the Love of God; to promote oneness and unity with
+                          a sense of family; to represent the image and display
+                          the character of Jesus Christ.
+                        </p>
+                      </div>
 
-        <!-- Women -->
-        <div class="row mt-3 ">
-          <div class="col-md-7 text-center">
-            <!-- Events -->
-            <div class="card-body">
-              <h4 class="mt-3 ">Precious Vessels Of Virtue (PVV)</h4>
-              <div id="departments">
-                <div class="owl-carousel owl-theme">
-                  <div class="item">
-                    <p class="card-text">
-                      PVV are sisters in one Body, whose mission is to see every
-                      woman develop into the fullness of the virtuous woman God
-                      intended for her to be. Our goals are to manifest the
-                      standards of Christ in every way; to grow in the Love of
-                      God; to promote oneness and unity with a sense of family;
-                      to represent the image and display the character of Jesus
-                      Christ.
-                    </p>
+                      <div class="item">
+                        <p class="card-text">
+                          We intend to achieve these goals by pursuing the
+                          following objectives: To grow in the grace and
+                          knowledge of God through Bible studies. To host
+                          edifying, fun-filled activities, such as luncheons,
+                          teas, coffees and retreats To enhance our personal
+                          relationship with God through monthly fellowships,
+                          events and seminars To encourage women to develop in
+                          the character of Christ To teach women to walk in
+                          wholeness through the Word of God — spirit, soul and
+                          body.
+                        </p>
+                      </div>
+                    </div>
                   </div>
+                </div>
+              </div>
 
-                  <div class="item">
-                    <p class="card-text">
-                      We intend to achieve these goals by pursuing the following
-                      objectives: To grow in the grace and knowledge of God
-                      through Bible studies. To host edifying, fun-filled
-                      activities, such as luncheons, teas, coffees and retreats
-                      To enhance our personal relationship with God through
-                      monthly fellowships, events and seminars To encourage
-                      women to develop in the character of Christ To teach women
-                      to walk in wholeness through the Word of God — spirit,
-                      soul and body.
-                    </p>
+              <div class="col-md-5">
+                <div class="card text-white">
+                  <img
+                    src="https://i.ibb.co/q70TKtb/1.jpg"
+                    class="card-img-top rounded shadow"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay text-center">
+                    <h1 class="display-3  mt-3">Women Ministry</h1>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+            <!-- Women -->
 
-          <div class="col-md-5">
-            <div class="card text-white">
-              <img
-                src="https://i.ibb.co/q70TKtb/1.jpg"
-                class="card-img-top rounded shadow"
-                alt="..."
-              />
-              <div class="card-img-overlay text-center">
-                <h1 class="display-4  mt-3">Women Ministry</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Women -->
-
-        <!-- Omega -->
-        <div class="row mt-3">
-          <div class="col-md-5">
-            <div class="card text-white">
-              <img
-                src="https://i.ibb.co/q70TKtb/1.jpg"
-                class="card-img-top rounded shadow"
-                alt="..."
-              />
-              <div class="card-img-overlay text-center">
-                <h1 class="display-4  mt-3">Omega Generation</h1>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-7 text-center">
-            <div class="card-body">
-              <h4 class="mt-3">Youth Ministry</h4>
-              <p class="card-text">
-                Its a ministry for all teenagers in the church. This ministry
-                offers the platform and provide opportunities for them to know
-                more of Jesus Christ in this early stage of life though regular
-                Sunday session and other activities that exposes them to the
-                thing of the Lord
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Omega -->
-
-        <!-- Children -->
-        <div class="row mt-3 mb-3">
-          <div class="col-md-7 text-center ">
-            <div class="card-body">
-              <h4 class="mt-3 ">Children Ministry</h4>
-              <div id="departments">
-                <div class="owl-carousel owl-theme">
-                  <div class="item">
-                    <p class="card-text ">
-                      Children are our future. Recent events indicate that the
-                      world is becoming evil and darker around us, it’s
-                      extremely important and our responsibility to provide our
-                      children with a solid foundation in the word of God.At
-                      Elim Temple, a necessary foundation is built throughout
-                      each age level with the same emphasis as adults. Children
-                      are exposed to and taught the word of God at a tender age.
-                    </p>
-                  </div>
-                  <div class="item">
-                    <p class="card-text">
-                      It is our belief and responsibility to position the saints
-                      in the world as leaders thoroughly equip with the word of
-                      God. This ministry provides nurturing and loving
-                      environment for infants, toddlers and teenagers to learn
-                      to hear the voice of God, know God and His purpose.
-                      Dominion Kids participate in Praise &amp; Worship, Prayer,
-                      Bible studies, Story time, Music and many fun activities.
-                    </p>
-                  </div>
-                  <div class="item">
-                    <p class="card-text">
-                      They learn to memorize and recite scriptures, reference
-                      the Bible for Salvation, Healing, Faith and Prayer etc.;
-                      and are able to apply the principles of leading someone to
-                      Christ. Much more Elim Kids know how to be occupied with
-                      Jesus. Our teams of Spirit-filled teachers are well
-                      equipped to provide the molding of children from toddler
-                      years to age thirteen.
-                    </p>
+            <!-- Omega -->
+            <div class="row mt-3">
+              <div class="col-md-5">
+                <div class="card text-white">
+                  <img
+                    src="https://i.ibb.co/q70TKtb/1.jpg"
+                    class="card-img-top rounded shadow"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay text-center">
+                    <h1 class="display-3  mt-3">Omega Generation</h1>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-md-5">
-            <div class="card text-white">
-              <img
-                src="https://i.ibb.co/ZHHbhH9/child.png"
-                class="card-img-top rounded shadow"
-                alt="..."
-              />
+              <div class="col-md-7 text-center">
+                <div class="card-body">
+                  <h4 class="mt-3">Youth Ministry</h4>
+                  <p class="card-text">
+                    Its a ministry for all teenagers in the church. This
+                    ministry offers the platform and provide opportunities for
+                    them to know more of Jesus Christ in this early stage of
+                    life though regular Sunday session and other activities that
+                    exposes them to the thing of the Lord
+                  </p>
+                </div>
+              </div>
             </div>
+            <!-- Omega -->
+
+            <!-- Children -->
+            <div class="row mt-3 mb-3">
+              <div class="col-md-7 text-center ">
+                <div class="card-body">
+                  <h4 class="mt-3 ">Children Ministry</h4>
+                  <div id="departments">
+                    <div class="owl-carousel owl-theme">
+                      <div class="item">
+                        <p class="card-text ">
+                          Children are our future. Recent events indicate that
+                          the world is becoming evil and darker around us, it’s
+                          extremely important and our responsibility to provide
+                          our children with a solid foundation in the word of
+                          God.At Elim Temple, a necessary foundation is built
+                          throughout each age level with the same emphasis as
+                          adults. Children are exposed to and taught the word of
+                          God at a tender age.
+                        </p>
+                      </div>
+                      <div class="item">
+                        <p class="card-text">
+                          It is our belief and responsibility to position the
+                          saints in the world as leaders thoroughly equip with
+                          the word of God. This ministry provides nurturing and
+                          loving environment for infants, toddlers and teenagers
+                          to learn to hear the voice of God, know God and His
+                          purpose. Dominion Kids participate in Praise &amp;
+                          Worship, Prayer, Bible studies, Story time, Music and
+                          many fun activities.
+                        </p>
+                      </div>
+                      <div class="item">
+                        <p class="card-text">
+                          They learn to memorize and recite scriptures,
+                          reference the Bible for Salvation, Healing, Faith and
+                          Prayer etc.; and are able to apply the principles of
+                          leading someone to Christ. Much more Elim Kids know
+                          how to be occupied with Jesus. Our teams of
+                          Spirit-filled teachers are well equipped to provide
+                          the molding of children from toddler years to age
+                          thirteen.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <div class="card text-white">
+                  <img
+                    src="https://i.ibb.co/ZHHbhH9/child.png"
+                    class="card-img-top rounded shadow"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Children -->
           </div>
         </div>
-        <!-- Children -->
       </div>
     </div>
     <!-- large screen -->
 
     <!-- mobile -->
     <div class="d-none d-block d-sm-none">
+      <h1 class="title2 font-italic display-4 text-center mb-4">Departments</h1>
       <div class="container">
-        <!-- Men -->
-        <div class="row mt-3">
-          <div class="col-md-12">
-            <div class="card ">
-              <img
-                src="https://i.ibb.co/q70TKtb/1.jpg"
-                class="card-img-top rounded shadow"
-                alt="..."
-              />
+        <div class=" bg-white rounded   showy2 ">
+          <div class="card-body">
+            <!-- Men -->
+            <div class="card  shadow">
+              <img src="https://i.ibb.co/q70TKtb/1.jpg" class="card-img-top " alt="..." />
+              <div class="card-body text-center">
+                <h4 class="">Mighty Men Of Valour (MMV)</h4>
+                <p class="class-text">
+                  As men are ordained as head of the home, there is need that we
+                  are sharpens and be responsible to face any challenge. As a
+                  result of this Men at Elim Temple instituted a scholarship
+                  scheme to support needy children in the church further their
+                  education
+                </p>
+              </div>
             </div>
-          </div>
+            <!-- Men -->
 
-          <div class="col-md-12 text-center">
-            <div class="card-body">
-              <h4 class="">Mighty Men Of Valour (MMV)</h4>
-              <p class="class-text">
-                As men are ordained as head of the home, there is need that we
-                are sharpens and be responsible to face any challenge. As a
-                result of this Men at Elim Temple instituted a scholarship
-                scheme to support needy children in the church further their
-                education
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Men -->
+            <!-- Women -->
+            <div class="card  shadow mt-3">
+              <img src="https://i.ibb.co/q70TKtb/1.jpg" class="card-img-top " alt="..." />
+              <div class="card-body text-center">
+                <h4 class="">Precious Vessels Of Virtue (PVV)</h4>
+                <!-- Events -->
+                <div id="departments">
+                  <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <p class="card-text">
+                        PVV are sisters in one Body, whose mission is to see
+                        every woman develop into the fullness of the virtuous
+                        woman God intended for her to be. Our goals are to
+                        manifest the standards of Christ in every way; to grow
+                        in the Love of God; to promote oneness and unity with a
+                        sense of family; to represent the image and display the
+                        character of Jesus Christ.
+                      </p>
+                    </div>
 
-        <!-- Women -->
-        <div class="row mt-2">
-          <div class="col-md-12">
-            <div class="card ">
-              <img
-                src="https://i.ibb.co/q70TKtb/1.jpg"
-                class="card-img-top rounded shadow"
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col-md-12 text-center">
-            <div class="card-body">
-              <h4 class="">Precious Vessels Of Virtue (PVV)</h4>
-              <!-- Events -->
-              <div id="departments">
-                <div class="owl-carousel owl-theme">
-                  <div class="item">
-                    <p class="card-text">
-                      PVV are sisters in one Body, whose mission is to see every
-                      woman develop into the fullness of the virtuous woman God
-                      intended for her to be. Our goals are to manifest the
-                      standards of Christ in every way; to grow in the Love of
-                      God; to promote oneness and unity with a sense of family;
-                      to represent the image and display the character of Jesus
-                      Christ.
-                    </p>
-                  </div>
-
-                  <div class="item">
-                    <p class="card-text">
-                      We intend to achieve these goals by pursuing the following
-                      objectives: To grow in the grace and knowledge of God
-                      through Bible studies. To host edifying, fun-filled
-                      activities, such as luncheons, teas, coffees and retreats
-                      To enhance our personal relationship with God through
-                      monthly fellowships, events and seminars To encourage
-                      women to develop in the character of Christ To teach women
-                      to walk in wholeness through the Word of God — spirit,
-                      soul and body.
-                    </p>
+                    <div class="item">
+                      <p class="card-text">
+                        We intend to achieve these goals by pursuing the
+                        following objectives: To grow in the grace and knowledge
+                        of God through Bible studies. To host edifying,
+                        fun-filled activities, such as luncheons, teas, coffees
+                        and retreats To enhance our personal relationship with
+                        God through monthly fellowships, events and seminars To
+                        encourage women to develop in the character of Christ To
+                        teach women to walk in wholeness through the Word of God
+                        — spirit, soul and body.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Events -->
-        </div>
-        <!-- Women -->
+            <!-- Women -->
 
-        <!-- Omega -->
-        <div class="row mt-2">
-          <div class="col-md-12">
-            <div class="card ">
+            <!-- Omega -->
+            <div class="card  shadow mt-3">
+              <img src="https://i.ibb.co/q70TKtb/1.jpg" class="card-img-top " alt="..." />
+              <div class="card-body text-center">
+                <h4>Youth Ministry</h4>
+
+                <p class="card-text">
+                  Its a ministry for all teenagers in the church. This ministry
+                  offers the platform and provide opportunities for them to know
+                  more of Jesus Christ in this early stage of life though
+                  regular Sunday session and other activities that exposes them
+                  to the thing of the Lord
+                </p>
+              </div>
+            </div>
+            <!-- Omega -->
+
+            <!-- Children -->
+            <div class="card  shadow mt-3">
               <img
-                src="https://i.ibb.co/q70TKtb/1.jpg"
-                class="card-img-top rounded shadow"
+                src="https://i.ibb.co/ZHHbhH9/child.png"
+                class="card-img-top "
                 alt="..."
               />
-            </div>
-          </div>
+              <div class="card-body text-center">
+                <h4>Children Ministry</h4>
+                <div id="departments">
+                  <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <p class="card-text ">
+                        Children are our future. Recent events indicate that the
+                        world is becoming evil and darker around us, it’s
+                        extremely important and our responsibility to provide
+                        our children with a solid foundation in the word of God.
+                        At Elim Temple, a necessary foundation is built
+                        throughout each age level with the same emphasis as
+                        adults. Children are exposed to and taught the word of
+                        God at a tender age.
+                      </p>
+                    </div>
+                    <div class="item">
+                      <p class="card-text">
+                        Children are exposed to and taught the word of God at a
+                        tender age. It is our belief and responsibility to
+                        position the saints in the world as leaders thoroughly
+                        equip with the word of God. This ministry provides
+                        nurturing and loving environment for infants, toddlers
+                        and teenagers to learn to hear the voice of God, know
+                        God and His purpose. Dominion Kids participate in Praise
+                        &amp; Worship, Prayer, Bible studies, Story time, Music
+                        and many fun activities.
+                      </p>
+                    </div>
 
-          <!-- Omega -->
-          <div class="col-md-12 text-center">
-            <div class="card-body">
-              <h4>Youth Ministry</h4>
-
-              <p class="card-text">
-                Its a ministry for all teenagers in the church. This ministry
-                offers the platform and provide opportunities for them to know
-                more of Jesus Christ in this early stage of life though regular
-                Sunday session and other activities that exposes them to the
-                thing of the Lord
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Omega -->
-
-        <!-- Children -->
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <div class="card ">
-              <img
-              src="https://i.ibb.co/ZHHbhH9/child.png"
-                class="card-img-top rounded shadow"
-                alt="..."
-              />
-            </div>
-          </div>
-          <div class="col-md-12 text-center">
-            <div class="card-body">
-              <h4>Children Ministry</h4>
-              <div id="departments">
-                <div class="owl-carousel owl-theme">
-                  <div class="item">
-                    <p class="card-text ">
-                      Children are our future. Recent events indicate that the
-                      world is becoming evil and darker around us, it’s
-                      extremely important and our responsibility to provide our
-                      children with a solid foundation in the word of God. At
-                      Elim Temple, a necessary foundation is built throughout
-                      each age level with the same emphasis as adults. Children
-                      are exposed to and taught the word of God at a tender age.
-                    </p>
-                  </div>
-                  <div class="item">
-                    <p class="card-text">
-                      Children are exposed to and taught the word of God at a
-                      tender age. It is our belief and responsibility to
-                      position the saints in the world as leaders thoroughly
-                      equip with the word of God. This ministry provides
-                      nurturing and loving environment for infants, toddlers and
-                      teenagers to learn to hear the voice of God, know God and
-                      His purpose. Dominion Kids participate in Praise &amp;
-                      Worship, Prayer, Bible studies, Story time, Music and many
-                      fun activities.
-                    </p>
-                  </div>
-
-                  <div class="item">
-                    <p class="card-text">
-                      They learn to memorize and recite scriptures, reference
-                      the Bible for Salvation, Healing, Faith and Prayer etc.;
-                      and are able to apply the principles of leading someone to
-                      Christ. Much more Elim Kids know how to be occupied with
-                      Jesus. Our teams of Spirit-filled teachers are well
-                      equipped to provide the molding of children from toddler
-                      years to age thirteen.
-                    </p>
+                    <div class="item">
+                      <p class="card-text">
+                        They learn to memorize and recite scriptures, reference
+                        the Bible for Salvation, Healing, Faith and Prayer etc.;
+                        and are able to apply the principles of leading someone
+                        to Christ. Much more Elim Kids know how to be occupied
+                        with Jesus. Our teams of Spirit-filled teachers are well
+                        equipped to provide the molding of children from toddler
+                        years to age thirteen.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- Children -->
           </div>
         </div>
-        <!-- Children -->
       </div>
     </div>
     <!-- mobile -->
