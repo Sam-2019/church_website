@@ -71,54 +71,85 @@
             font-family: "Montserrat", sans-serif;
             font-size: 14px;
           }
-    
+        
+          .banner {
+            border-bottom-left-radius: 50% 20%;
+            border-bottom-right-radius: 50% 20%;
+          }
+        
+          .title {
+            z-index: 5;
+            margin-top: -15%;
+            color: rgb(255, 255, 255);
+            text-align: center;
+          }
+        
+          .title2 {
+            z-index: 5;
+            margin-top: -20%;
+            color: rgb(255, 255, 255);
+            text-align: center;
+          }
+        
+          .showy {
+            z-index: 20;
+            position: sticky;
+          }
+        
+          .showy2 {
+            z-index: 20;
+            margin-top: -7%;
+            position: sticky;
+          }
+        
           .number {
             color: white;
           }
+        
           .animate:hover {
             transform: translateY(-7px);
             transition: all 0.2s ease-in-out;
           }
-    
+        
           .black {
             background: #000000;
           }
-    
+        
           .orange {
             background: #fd7e14;
           }
-    
+        
           .animate2 {
             animation: grow-shrink 4s ease-out infinite;
           }
-    
+        
           .awesome {
             color: rgb(72, 75, 78);
             font-size: 30px;
           }
-    
+        
           .wa .fb .twitter .instagram {
             font-size: 40px;
           }
-    
+        
           .wa:hover,
           .wa:focus {
             color: white;
             background-color: #25d366;
           }
-    
+        
           .fb:hover,
           .fb:focus {
             color: white;
             background-color: #1b478f;
           }
-    
+        
           .twitter:hover,
           .twitter:focus {
             color: white;
             background-color: #007bff;
           }
-    
+        
           .instagram:hover,
           .instagram:focus {
             color: white;
@@ -131,21 +162,21 @@
               #bc1888 100%
             );
           }
-    
+        
           .youtube:hover,
           .youtube:focus {
             background-color: red;
             color: white;
           }
-    
+        
           .bg-deeporange {
             background: rgb(180, 26, 37);
           }
-    
+        
           .bg-deepblue {
             background: rgb(17, 22, 88);
           }
-    
+        
           .bg {
             background: linear-gradient(
               45deg,
@@ -156,7 +187,7 @@
               #bef033 100%
             );
           }
-    
+        
           .bdg {
             background: linear-gradient(
               45deg,
@@ -167,29 +198,29 @@
               #18bc4c 100%
             );
           }
-    
+        
           .grid-container {
             display: inline-grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             padding: 0px 80% 0px -10%;
             width: 100%;
           }
-    
+        
           .fadedblack {
             background: #333;
           }
-    
+        
           /* The Close Button */
           .close {
             color: #aaa;
           }
-    
+        
           .close:hover,
           .close:focus {
             color: tomato;
             cursor: pointer;
           }
-    
+        
           a.scrollup {
             color: #fff;
             height: 40px;
@@ -209,33 +240,30 @@
             background-color: #ddd;
             color: #1bbd36;
           }
-    
+        
           a.links {
             color: #fff;
           }
           a.links:hover {
             color: #0eb814;
           }
-    
+        
           a:hover {
             animation: grow-shrink 4s ease-out infinite;
           }
-    
+        
           .inner {
             max-width: 1024px;
             margin: 0px auto;
             text-align: center;
           }
-    
-          /*main element*/
-    
-          /*icon styling here*/
-    
+        
           /*main element*/
           .pulse-icon {
             position: relative;
             display: inline-block;
           }
+        
           /*icon styling here*/
           .pulse-icon .icon-wrap {
             position: relative;
@@ -255,7 +283,7 @@
             font-size: 1.75em;
             animation: grow-shrink 4s ease-out infinite;
           }
-    
+        
           /*container of all circles and pulses*/
           .pulse-icon .elements {
             position: absolute;
@@ -291,7 +319,7 @@
             left: -20px;
             animation: grow-circles 4s linear infinite both;
           }
-    
+        
           /*series of x pulses of differing sizes*/
           .pulse-icon .pulse {
             position: absolute;
@@ -320,7 +348,7 @@
             top: -70px;
             left: -70px;
           }
-    
+        
           /*Animation for the outewards pulsating waves*/
           @keyframes pulse-wave {
             0% {
@@ -336,7 +364,7 @@
               transform: scale(1);
             }
           }
-    
+        
           /*animation for the inner and outer wave items to grow*/
           @keyframes grow-circles {
             0% {
@@ -352,7 +380,7 @@
               transform: scale(1);
             }
           }
-    
+        
           /*animation for the icon to slightly grow and shrink*/
           @keyframes grow-shrink {
             0% {
@@ -365,7 +393,7 @@
               transform: scale(1);
             }
           }
-    
+        
           .fadeIn {
             animation-duration: 2s;
             animation-delay: 1s;
@@ -401,7 +429,7 @@
       >
         <div class="navbar-nav text-center ">
           <a class="nav-item nav-link" href="index.html">Home</a>
-          <a class="nav-item nav-link" href="about us.html">About Us</a>
+          <a class="nav-item nav-link active" href="about us.html">About Us</a>
           <a class="nav-item nav-link" href="department.html">Departments</a>
           <a class="nav-item nav-link" href="">Gallery</a>
           <a class="nav-item nav-link" href="media.html">Media</a>
@@ -412,28 +440,228 @@
     <!-- Navbar -->
 
     <!-- main body -->
+    <div class="">
+      <img
+        src="https://i.ibb.co/9pFRCmH/samEC2.png"
+        class="card-img-top banner"
+        alt="..."
+      />
+    </div>
+
+    <!-- main body -->
     <!-- large screen -->
-    <div class="d-none d-sm-block">
-      <div class="container text-white">
-        <!-- Pastor -->
-        <div class="row mt-4 text-center">
-          <div class="col-md-5    ">
-            <img
-              src="assets/img/logo.jpg"
-              class="card-img w-50 rounded"
-              alt="..."
-            />
+    <div class="d-none d-sm-block ">
+      <h1 class="title font-italic display-4 mb-5 ">About Us</h1>
+      <div class="container ">
+        <div class=" bg-white rounded showy">
+          <div class="card-body">
+            <!-- Pastor -->
+            <div class="row mt-3 text-center">
+              <div class="col-md-5    ">
+                <img
+                  src="https://i.ibb.co/NLB1Ww8/logo.jpg"
+                  class="card-img w-50 rounded"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7  rounded">
+                <div class="card-body">
+                  <h6>Message from</h6>
+                  <h5 class="card-title">
+                    Rev. Robert deGraft-Johnson
+                  </h5>
+                  <!-- Events -->
+                  <div id="departments">
+                    <div class="owl-carousel owl-theme">
+                      <div class="item">
+                        <p class="card-text">
+                          It’s with great excitement and joy in welcoming you
+                          into ICGC, Elim Temple. Our believe and conviction is
+                          that as you fellowship with us, you will access your
+                          place of refreshing and comfort just as the Israelites
+                          received rest at Elim (Numbers 33:9) from the desert
+                          so shall it be for you in Jesus Name. We are determine
+                          to increase in all areas of our lives and most
+                          importantly build a New testament Christian who is
+                          prayerful, committed, spirit-filled, passionate and
+                          living witness so as to positively affect our
+                          communities far and near with the power of the Lord.
+                        </p>
+                      </div>
+
+                      <div class="item">
+                        <p class="card-text">
+                          We believe God's word changes lives. We have wide
+                          range of ministries/department here at Elim Temple, to
+                          help each and everyone of us to exhibit his/her God
+                          given talent We affirm and are committed to the
+                          mission of ICGC, thus raised leaders Shape visions and
+                          influence society. In all our endeavours as a local
+                          church, we encapsulate the philosophy of ICGC in our
+                          daily lives as we aspire to be earthly relevant and
+                          heavenly bound. Come and fellowship with us and your
+                          life will never be the same in Jesus Name
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Events -->
+                </div>
+              </div>
+            </div>
+            <!-- Pastor -->
+
+            <!-- Philosophy -->
+            <div class="row mt-3 text-center">
+              <div class="col-md-7   rounded">
+                <div class="card-body ">
+                  <h4 class="card-title">
+                    OUR PHILOSOPHY
+                  </h4>
+                  <h6 class="card-title">
+                    • Practical Christianity • Human Dignity • Excellence
+                  </h6>
+                  <p class="card-text">
+                    We believe Christianity is not a myth. God's word preached
+                    must bring truths that can produce results when applied to
+                    one’s life. Every human being is created in the image and
+                    likeness of God and must be treated with respect and honour.
+                    Also, everything the Christian or the human being will do
+                    must be in excellent shape to the glory of God. (Daniel
+                    5:12)
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="https://i.ibb.co/NLB1Ww8/logo.jpg"
+                  class="card-img w-50 rounded"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <!-- Philosophy -->
+
+            <!-- Mission -->
+            <div class="row mt-3 text-center">
+              <div class="col-md-5 ">
+                <img
+                  src="https://i.ibb.co/NLB1Ww8/logo.jpg"
+                  class="card-img w-50 rounded"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7  rounded">
+                <div class="card-body ">
+                  <h4 class="card-title">
+                    OUR MISSION STATEMENT
+                  </h4>
+                  <h6 class="card-title">
+                    • Raising Leaders • Shaping Vision • Influencing Society
+                    through Christ
+                  </h6>
+                  <p class="card-text">
+                    Through our programs, we trust to make the lives of our
+                    people better than before they came to Church, and redirect
+                    their perception and behaviour in conformity with God's
+                    word. This attitude which is based on the word of God will
+                    transform the lives of people in their communities, work
+                    place, schools etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Mission -->
+
+            <!-- Vision -->
+            <div class="row mt-3 text-center">
+              <div class="col-md-7   rounded">
+                <div class="card-body ">
+                  <h4 class="card-title my-3">
+                    VISION OF ICGC (ACTS 2:42)
+                  </h4>
+                  <p class="card-text">
+                    To establish the house of God through the development of
+                    Model New Testament Christians and churches. That is, we
+                    have the commitment to train and equip God's people who come
+                    to our church to develop and grow into maturity in Christ so
+                    they will manifest the character of Christ.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="https://i.ibb.co/NLB1Ww8/logo.jpg"
+                  class="card-img w-50 rounded"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <!-- Vision -->
+
+            <!-- Our Logo -->
+            <div class="row mt-3 mb-3 text-center">
+              <div class="col-md-5 ">
+                <img
+                  src="https://i.ibb.co/NLB1Ww8/logo.jpg"
+                  class="card-img w-50 rounded"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7   rounded">
+                <div class="card-body ">
+                  <h4 class="card-title">
+                    OUR LOGO (ACTS 2:41 - 42)
+                  </h4>
+                  <p class="card-text">
+                    This consists of the Globe with highlight on the African
+                    Continent. It has Four Pillars and an oval ring around it
+                    holding them together.
+                  </p>
+                  <p class="card-text">
+                    The Globe represents the world and our focus to reach out
+                    internationally.
+                  </p>
+                  <p class="card-text">
+                    The four pillars represent the main focus and devotion the
+                    early church was committed to namely:
+                  </p>
+                  <h6 class="card-title">
+                    • Doctrine • Prayer • Fellowship • Breaking of bread Christ
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <!-- Our Logo -->
           </div>
-          <div class="col-md-7 bg rounded">
-            <!-- Events -->
+        </div>
+      </div>
+    </div>
+    <!-- large screen -->
+
+    <!-- mobile -->
+    <div class="d-none d-block d-sm-none">
+      <h1 class="title2 font-italic display-4 text-center mb-4">About Us</h1>
+      <div class="container">
+        <div class=" bg-white rounded   showy2 ">
+          <div class="card-body">
+
+        <!-- Pastor -->
+        <div class="card  shadow ">
+          <img
+            src="https://i.ibb.co/NLB1Ww8/logo.jpg"
+            class="card-img-top w-50 rounded mx-auto d-block"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h6>Message from</h6>
+            <h5 class="">
+              Rev. Robert deGraft-Johnson
+            </h5>
             <div id="departments">
               <div class="owl-carousel owl-theme">
                 <div class="item">
                   <div class="card-body">
-                    <h6>Message from</h6>
-                    <h5 class="card-title">
-                      Rev. Robert deGraft-Johnson
-                    </h5>
                     <p class="card-text">
                       It’s with great excitement and joy in welcoming you into
                       ICGC, Elim Temple. Our believe and conviction is that as
@@ -446,235 +674,35 @@
                 </div>
 
                 <div class="item">
-                  <div class="card-body">
-                    <p class="card-text">
-                      We are determine to increase in all areas of our lives and
-                      most importantly build a New testament Christian who is
-                      prayerful, committed, spirit-filled, passionate and living
-                      witness so as to positively affect our communities far and
-                      near with the power of the Lord. We believe God's word
-                      changes lives. We have wide range of ministries/department
-                      here at Elim Temple, to help each and everyone of us to
-                      exhibit his/her God given talent We affirm and are
-                      committed to the mission of ICGC, thus raised leaders
-                      Shape visions and influence society.
-                    </p>
-                  </div>
+                  <p class="card-text ">
+                    We are determine to increase in all areas of our lives and
+                    most importantly build a New testament Christian who is
+                    prayerful, committed, spirit-filled, passionate and living
+                    witness so as to positively affect our communities far and
+                    near with the power of the Lord. We believe God's word
+                    changes lives.
+                  </p>
                 </div>
 
                 <div class="item">
-                  <div class="card-body">
-                    <p class="card-text mt-5">
-                      In all our endeavours as a local church, we encapsulate
-                      the philosophy of ICGC in our daily lives as we aspire to
-                      be earthly relevant and heavenly bound. Come and
-                      fellowship with us and your life will never be the same in
-                      Jesus Name
-                    </p>
-                  </div>
+                  <p class="card-text ">
+                    We have wide range of ministries/department here at Elim
+                    Temple, to help each and everyone of us to exhibit his/her
+                    God given talent We affirm and are committed to the mission
+                    of ICGC, thus raised leaders Shape visions and influence
+                    society.
+                  </p>
                 </div>
-              </div>
-            </div>
-            <!-- Events -->
-          </div>
-        </div>
-        <!-- Pastor -->
 
-        <!-- Philosophy -->
-        <div class="row mt-4 text-center">
-          <div class="col-md-7  bg rounded">
-            <div class="card-body ">
-              <h4 class="card-title">
-                OUR PHILOSOPHY
-              </h4>
-              <h6 class="card-title">
-                • Practical Christianity • Human Dignity • Excellence
-              </h6>
-              <p class="card-text">
-                We believe Christianity is not a myth. God's word preached must
-                bring truths that can produce results when applied to one’s
-                life. Every human being is created in the image and likeness of
-                God and must be treated with respect and honour. Also,
-                everything the Christian or the human being will do must be in
-                excellent shape to the glory of God. (Daniel 5:12)
-              </p>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <img
-              src="assets/img/logo.jpg"
-              class="card-img w-50 rounded"
-              alt="..."
-            />
-          </div>
-        </div>
-        <!-- Philosophy -->
-
-        <!-- Mission -->
-        <div class="row mt-4 text-center">
-          <div class="col-md-5 ">
-            <img
-              src="assets/img/logo.jpg"
-              class="card-img w-50 rounded"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-7 bg rounded">
-            <div class="card-body ">
-              <h4 class="card-title">
-                OUR MISSION STATEMENT
-              </h4>
-              <h6 class="card-title">
-                • Raising Leaders • Shaping Vision • Influencing Society through
-                Christ
-              </h6>
-              <p class="card-text">
-                Through our programs, we trust to make the lives of our people
-                better than before they came to Church, and redirect their
-                perception and behaviour in conformity with God's word. This
-                attitude which is based on the word of God will transform the
-                lives of people in their communities, work place, schools etc.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Mission -->
-
-        <!-- Vision -->
-        <div class="row mt-4 text-center">
-          <div class="col-md-7 bg  rounded">
-            <div class="card-body ">
-              <h4 class="card-title my-3">
-                VISION OF ICGC (ACTS 2:42)
-              </h4>
-              <p class="card-text">
-                To establish the house of God through the development of Model
-                New Testament Christians and churches. That is, we have the
-                commitment to train and equip God's people who come to our
-                church to develop and grow into maturity in Christ so they will
-                manifest the character of Christ.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <img
-              src="assets/img/logo.jpg"
-              class="card-img w-50 rounded"
-              alt="..."
-            />
-          </div>
-        </div>
-        <!-- Vision -->
-
-        <!-- Our Logo -->
-        <div class="row mt-4 mb-4 text-center">
-          <div class="col-md-5 ">
-            <img
-              src="assets/img/logo.jpg"
-              class="card-img w-50 rounded"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-7 bg  rounded">
-            <div class="card-body ">
-              <h4 class="card-title">
-                OUR LOGO (ACTS 2:41 - 42)
-              </h4>
-              <p class="card-text">
-                This consists of the Globe with highlight on the African
-                Continent. It has Four Pillars and an oval ring around it
-                holding them together.
-              </p>
-              <p class="card-text">
-                The Globe represents the world and our focus to reach out
-                internationally.
-              </p>
-              <p class="card-text">
-                The four pillars represent the main focus and devotion the early
-                church was committed to namely:
-              </p>
-              <h6 class="card-title">
-                • Doctrine • Prayer • Fellowship • Breaking of bread Christ
-              </h6>
-            </div>
-          </div>
-        </div>
-        <!-- Our Logo -->
-      </div>
-    </div>
-    <!-- large screen -->
-
-    <!-- mobile -->
-    <div class="d-none d-block d-sm-none">
-      <div class="container">
-        <!-- Pastor -->
-        <div class="row mt-3  text-center ">
-          <div class="col-md-12   ">
-            <img
-              src="assets/img/logo.jpg"
-              class="card-img w-50 rounded"
-              alt="..."
-            />
-          </div>
-
-          <div class="col-md-12">
-            <div class=" shadow  bg rounded animate text-white ">
-              <div id="departments">
-                <div class="owl-carousel owl-theme">
-                  <div class="item">
-                    <div class="card-body">
-                      <h6>Message from</h6>
-                      <h5 class="card-title">
-                        Rev. Robert deGraft-Johnson
-                      </h5>
-                      <p class="card-text">
-                        It’s with great excitement and joy in welcoming you into
-                        ICGC, Elim Temple. Our believe and conviction is that as
-                        you fellowship with us, you will access your place of
-                        refreshing and comfort just as the Israelites received
-                        rest at Elim (Numbers 33:9) from the desert so shall it
-                        be for you in Jesus Name.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="card-body">
-                      <p class="card-text mt-5">
-                        We are determine to increase in all areas of our lives
-                        and most importantly build a New testament Christian who
-                        is prayerful, committed, spirit-filled, passionate and
-                        living witness so as to positively affect our
-                        communities far and near with the power of the Lord. We
-                        believe God's word changes lives.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="card-body">
-                      <p class="card-text mt-5">
-                        We have wide range of ministries/department here at Elim
-                        Temple, to help each and everyone of us to exhibit
-                        his/her God given talent We affirm and are committed to
-                        the mission of ICGC, thus raised leaders Shape visions
-                        and influence society.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="card-body">
-                      <p class="card-text mt-5">
-                        Come and fellowship with us and your life will never be
-                        the same in Jesus Name In all our endeavours as a local
-                        church, we encapsulate the philosophy of ICGC in our
-                        daily lives as we aspire to be earthly relevant and
-                        heavenly bound. Come and fellowship with us and your
-                        life will never be the same in Jesus Name
-                      </p>
-                    </div>
-                  </div>
+                <div class="item">
+                  <p class="card-text ">
+                    Come and fellowship with us and your life will never be the
+                    same in Jesus Name In all our endeavours as a local church,
+                    we encapsulate the philosophy of ICGC in our daily lives as
+                    we aspire to be earthly relevant and heavenly bound. Come
+                    and fellowship with us and your life will never be the same
+                    in Jesus Name
+                  </p>
                 </div>
               </div>
             </div>
@@ -683,140 +711,118 @@
         <!-- Pastor -->
 
         <!-- Philosophy -->
-        <div class="row mt-3  text-center ">
-          <div class="col-md-12   ">
-            <img
-              src="assets/img/logo.jpg"
-              class="card-img w-50 rounded"
-              alt="..."
-            />
-          </div>
+        <div class="card  shadow mt-3">
+          <img
+            src="https://i.ibb.co/NLB1Ww8/logo.jpg"
+            class="card-img-top w-50 rounded mx-auto d-block"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="">
+              OUR PHILOSOPHY
+            </h5>
 
-          <div class="col-md-12">
-            <div class=" shadow  bg rounded animate text-white ">
-              <div class="card-body  ">
-                <h5 class="card-title">
-                  OUR PHILOSOPHY
-                </h5>
-
-                <h6 class="card-title">
-                  • Practical Christianity • Human Dignity • Excellence
-                </h6>
-                <p class="card-text">
-                  We believe Christianity is not a myth. God's word preached
-                  must bring truths that can produce results when applied to
-                  one’s life. Every human being is created in the image and
-                  likeness of God and must be treated with respect and honour.
-                  Also, everything the Christian or the human being will do must
-                  be in excellent shape to the glory of God. (Daniel 5:12)
-                </p>
-              </div>
-            </div>
+            <h6 class="">
+              • Practical Christianity • Human Dignity • Excellence
+            </h6>
+            <p class="card-text">
+              We believe Christianity is not a myth. God's word preached must
+              bring truths that can produce results when applied to one’s life.
+              Every human being is created in the image and likeness of God and
+              must be treated with respect and honour. Also, everything the
+              Christian or the human being will do must be in excellent shape to
+              the glory of God. (Daniel 5:12)
+            </p>
           </div>
         </div>
         <!-- Philosophy -->
 
         <!-- Mission -->
-        <div class="row mt-3  text-center ">
-          <div class="col-md-12   ">
-            <img
-              src="assets/img/logo.jpg"
-              class="card-img w-50 rounded"
-              alt="..."
-            />
-          </div>
-
-          <div class="col-md-12">
-            <div class=" shadow  bg rounded animate text-white ">
-              <div class="card-body  ">
-                <h5 class="card-title">
-                  OUR MISSION STATEMENT
-                </h5>
-                <h6 class="card-title">
-                  • Raising Leaders • Shaping Vision <br />
-                  • Influencing Society through Christ
-                </h6>
-                <p class="card-text">
-                  Through our programs, we trust to make the lives of our people
-                  better than before they came to Church, and redirect their
-                  perception and behaviour in conformity with God's word. This
-                  attitude which is based on the word of God will transform the
-                  lives of people in their communities, work place, schools etc.
-                </p>
-              </div>
-            </div>
+        <div class="card  shadow mt-3">
+          <img
+            src="https://i.ibb.co/NLB1Ww8/logo.jpg"
+            class="card-img-top w-50 rounded mx-auto d-block"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="">
+              OUR MISSION STATEMENT
+            </h5>
+            <h6 class="">
+              • Raising Leaders • Shaping Vision <br />
+              • Influencing Society through Christ
+            </h6>
+            <p class="card-text">
+              Through our programs, we trust to make the lives of our people
+              better than before they came to Church, and redirect their
+              perception and behaviour in conformity with God's word. This
+              attitude which is based on the word of God will transform the
+              lives of people in their communities, work place, schools etc.
+            </p>
           </div>
         </div>
         <!-- Mission -->
 
         <!-- Vision -->
-        <div class="row mt-3 text-center">
-          <div class="col-md-12">
-            <img
-              src="assets/img/logo.jpg"
-              class="card-img w-50 rounded"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-12">
-            <div class=" shadow  bg rounded animate text-white ">
-              <div class="card-body ">
-                <h5 class="card-title">
-                  VISION OF ICGC (ACTS 2:42)
-                </h5>
-                <p class="card-text">
-                  To establish the house of God through the development of Model
-                  New Testament Christians and churches. That is, we have the
-                  commitment to train and equip God's people who come to our
-                  church to develop and grow into maturity in Christ so they
-                  will manifest the character of Christ.
-                </p>
-              </div>
-            </div>
+        <div class="card  shadow mt-3">
+          <img
+            src="https://i.ibb.co/NLB1Ww8/logo.jpg"
+            class="card-img-top w-50 rounded mx-auto d-block"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="">
+              VISION OF ICGC (ACTS 2:42)
+            </h5>
+            <p class="card-text">
+              To establish the house of God through the development of Model New
+              Testament Christians and churches. That is, we have the commitment
+              to train and equip God's people who come to our church to develop
+              and grow into maturity in Christ so they will manifest the
+              character of Christ.
+            </p>
           </div>
         </div>
         <!-- Vision -->
 
-        <!-- Our Logo -->
-        <div class="row mt-3 mb-4 text-center">
-          <div class="col-md-12 ">
-            <img
-              src="assets/img/logo.jpg"
-              class="card-img w-50 rounded"
-              alt="..."
-            />
+        <!-- Logo -->
+        <div class="card  shadow mt-3">
+          <img
+            src="https://i.ibb.co/NLB1Ww8/logo.jpg"
+            class="card-img-top w-50 rounded mx-auto d-block"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="">
+              OUR LOGO (ACTS 2:41 - 42)
+            </h5>
+            <p class="card-text">
+              This consists of the Globe with highlight on the African
+              Continent. It has Four Pillars and an oval ring around it holding
+              them together.
+            </p>
+            <p class="card-text">
+              The Globe represents the world and our focus to reach out
+              internationally.
+            </p>
+            <p class="card-text">
+              The four pillars represent the main focus and devotion the early
+              church was committed to namely:
+            </p>
+            <h6 class="">
+              • Doctrine • Prayer • Fellowship <br />• Breaking of bread Christ
+            </h6>
           </div>
-          <div class="col-md-12">
-            <div class="shadow  bg rounded animate text-white ">
-              <div class="card-body ">
-                <h5 class="card-title">
-                  OUR LOGO (ACTS 2:41 - 42)
-                </h5>
-                <p class="card-text">
-                  This consists of the Globe with highlight on the African
-                  Continent. It has Four Pillars and an oval ring around it
-                  holding them together.
-                </p>
-                <p class="card-text">
-                  The Globe represents the world and our focus to reach out
-                  internationally.
-                </p>
-                <p class="card-text">
-                  The four pillars represent the main focus and devotion the
-                  early church was committed to namely:
-                </p>
-                <h6 class="card-title">
-                  • Doctrine • Prayer • Fellowship <br />• Breaking of bread
-                  Christ
-                </h6>
-              </div>
-            </div>
-          </div>
-          <!-- Our Logo -->
         </div>
+        <!-- Logo -->
       </div>
     </div>
+
     <!-- mobile -->
+    <!-- main body -->
+  </div>
+</div>
+   <!-- mobile -->
     <!-- main body -->
 
 
@@ -941,7 +947,7 @@
             </div>
   
             <div class="col-md-12">
-              <img     src="https://i.ibb.co/ynpt3vn/logo6.png" alt="Logo" width="200" class="" />
+              <img src="https://i.ibb.co/ynpt3vn/logo6.png" alt="Logo" width="200" class="" />
             </div>
   
             <div class="col-md-12 mb-1">
