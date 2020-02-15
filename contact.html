@@ -71,54 +71,85 @@
         font-family: "Montserrat", sans-serif;
         font-size: 14px;
       }
-
+    
+      .banner {
+        border-bottom-left-radius: 50% 20%;
+        border-bottom-right-radius: 50% 20%;
+      }
+    
+      .title {
+        z-index: 5;
+        margin-top: -15%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+      }
+    
+      .title2 {
+        z-index: 5;
+        margin-top: -20%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+      }
+    
+      .showy {
+        z-index: 20;
+        position: sticky;
+      }
+    
+      .showy2 {
+        z-index: 20;
+        margin-top: -7%;
+        position: sticky;
+      }
+    
       .number {
         color: white;
       }
+    
       .animate:hover {
         transform: translateY(-7px);
         transition: all 0.2s ease-in-out;
       }
-
+    
       .black {
         background: #000000;
       }
-
+    
       .orange {
         background: #fd7e14;
       }
-
+    
       .animate2 {
         animation: grow-shrink 4s ease-out infinite;
       }
-
+    
       .awesome {
         color: rgb(72, 75, 78);
         font-size: 30px;
       }
-
+    
       .wa .fb .twitter .instagram {
         font-size: 40px;
       }
-
+    
       .wa:hover,
       .wa:focus {
         color: white;
         background-color: #25d366;
       }
-
+    
       .fb:hover,
       .fb:focus {
         color: white;
         background-color: #1b478f;
       }
-
+    
       .twitter:hover,
       .twitter:focus {
         color: white;
         background-color: #007bff;
       }
-
+    
       .instagram:hover,
       .instagram:focus {
         color: white;
@@ -131,21 +162,21 @@
           #bc1888 100%
         );
       }
-
+    
       .youtube:hover,
       .youtube:focus {
         background-color: red;
         color: white;
       }
-
+    
       .bg-deeporange {
         background: rgb(180, 26, 37);
       }
-
+    
       .bg-deepblue {
         background: rgb(17, 22, 88);
       }
-
+    
       .bg {
         background: linear-gradient(
           45deg,
@@ -156,7 +187,7 @@
           #bef033 100%
         );
       }
-
+    
       .bdg {
         background: linear-gradient(
           45deg,
@@ -167,29 +198,29 @@
           #18bc4c 100%
         );
       }
-
+    
       .grid-container {
         display: inline-grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         padding: 0px 80% 0px -10%;
         width: 100%;
       }
-
+    
       .fadedblack {
         background: #333;
       }
-
+    
       /* The Close Button */
       .close {
         color: #aaa;
       }
-
+    
       .close:hover,
       .close:focus {
         color: tomato;
         cursor: pointer;
       }
-
+    
       a.scrollup {
         color: #fff;
         height: 40px;
@@ -209,33 +240,30 @@
         background-color: #ddd;
         color: #1bbd36;
       }
-
+    
       a.links {
         color: #fff;
       }
       a.links:hover {
         color: #0eb814;
       }
-
+    
       a:hover {
         animation: grow-shrink 4s ease-out infinite;
       }
-
+    
       .inner {
         max-width: 1024px;
         margin: 0px auto;
         text-align: center;
       }
-
-      /*main element*/
-
-      /*icon styling here*/
-
+    
       /*main element*/
       .pulse-icon {
         position: relative;
         display: inline-block;
       }
+    
       /*icon styling here*/
       .pulse-icon .icon-wrap {
         position: relative;
@@ -255,7 +283,7 @@
         font-size: 1.75em;
         animation: grow-shrink 4s ease-out infinite;
       }
-
+    
       /*container of all circles and pulses*/
       .pulse-icon .elements {
         position: absolute;
@@ -291,7 +319,7 @@
         left: -20px;
         animation: grow-circles 4s linear infinite both;
       }
-
+    
       /*series of x pulses of differing sizes*/
       .pulse-icon .pulse {
         position: absolute;
@@ -320,7 +348,7 @@
         top: -70px;
         left: -70px;
       }
-
+    
       /*Animation for the outewards pulsating waves*/
       @keyframes pulse-wave {
         0% {
@@ -336,7 +364,7 @@
           transform: scale(1);
         }
       }
-
+    
       /*animation for the inner and outer wave items to grow*/
       @keyframes grow-circles {
         0% {
@@ -352,7 +380,7 @@
           transform: scale(1);
         }
       }
-
+    
       /*animation for the icon to slightly grow and shrink*/
       @keyframes grow-shrink {
         0% {
@@ -365,7 +393,7 @@
           transform: scale(1);
         }
       }
-
+    
       .fadeIn {
         animation-duration: 2s;
         animation-delay: 1s;
@@ -400,52 +428,219 @@
     id="navbarNavAltMarkup"
   >
     <div class="navbar-nav text-center ">
-      <a class="nav-item nav-link" href="index.html">Home</a>
+      <a class="nav-item nav-link " href="index.html">Home</a>
       <a class="nav-item nav-link" href="about us.html">About Us</a>
       <a class="nav-item nav-link" href="department.html">Departments</a>
       <a class="nav-item nav-link" href="">Gallery</a>
       <a class="nav-item nav-link" href="media.html">Media</a>
-      <a class="nav-item nav-link" href="contact.html">Contacts</a>
+      <a class="nav-item nav-link active" href="contact.html">Contacts</a>
     </div>
   </div>
 </nav>
 <!-- Navbar -->
+<div class="">
+  <img
+    src="https://i.ibb.co/9pFRCmH/samEC2.png"
+    class="card-img-top banner"
+    alt="..."
+  />
+</div>
 
-    <!-- large screen -->
-    <div class="d-none d-sm-block">
-      <div class="container ">
-        <div class="row">
-          <div class="col-12">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.7082016752634!2d0.04818321451769578!3d5.755074795829232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102080ebf84333ef%3A0xb035f81955bcc6d0!2sICGC%20Elim%20Temple!5e0!3m2!1sen!2sgh!4v1581566636006!5m2!1sen!2sgh"
-              width="100%"
-              frameborder="0"
-              style="border:0;"
-              allowfullscreen=""
-            ></iframe>
+<!-- large screen -->
+<div class=" d-none d-sm-block ">
+  <h1 class="title font-italic display-4 mb-5 ">Contacts</h1>
+  <div class="container text-center ">
+    <div class=" bg-white rounded  showy ">
+      <div class="card-body ">
+        <div class="row ">
+          <div class="col-6 col-md-6 mt-3">
+            <div class="pulse-icon   ">
+              <div class="icon-wrap">
+                <i class="icon fa fa-home" aria-hidden=""></i>
+              </div>
+              <div class="mt-3">
+                <h4>Physical Address</h4>
+                <p>
+                  Fifth Street,<br />
+                  Methodist Junction,
+                  Dawhenya
+                </p>
+              </div>
+            </div>
           </div>
+
+          <div class="col-6 col-md-6 mt-3 ">
+            <div class="pulse-icon  ">
+              <div class="icon-wrap">
+                <i class="icon fa fa-phone  " aria-hidden=""></i>
+              </div>
+              <div class="mt-3">
+                <h4>Phone</h4>
+                <p>
+                  +233 244 434 000<br />
+                  +233 506 554 222<br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-6 col-md-6 mt-3">
+            <div class="pulse-icon   ">
+              <div class="icon-wrap">
+                <i class="icon fas fa-envelope" aria-hidden=""></i>
+              </div>
+              <div class="mt-3">
+                <h4>Email</h4>
+                <p>elimtemple@gmail.com<br /></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-6 mt-3 ">
+            <div class="pulse-icon  ">
+              <div class="icon-wrap">
+                <i class="icon fas fa-map-marker-alt  " aria-hidden=""></i>
+              </div>
+              <div class="mt-3">
+                <h4>Ghana Post GPS</h4>
+                <p>GN-0336-2300</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12 col-md-12 mt-3">
+            <div class="pulse-icon  ">
+              <div class="icon-wrap">
+                <i class="icon fas fa-map-marker-alt  " aria-hidden=""></i>
+              </div>
+              <div class="mt-3">
+                <h4>Google Maps</h4>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.7082016752634!2d0.04818321451769578!3d5.755074795829232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102080ebf84333ef%3A0xb035f81955bcc6d0!2sICGC%20Elim%20Temple!5e0!3m2!1sen!2sgh!4v1581566636006!5m2!1sen!2sgh"
+            width="100%"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+          ></iframe>
         </div>
       </div>
     </div>
-    <!-- large screen -->
+  </div>
+</div>
+<!-- large screen -->
 
-    <!-- mobile -->
-    <div class="d-none d-block d-sm-none">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.7082016752634!2d0.04818321451769578!3d5.755074795829232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102080ebf84333ef%3A0xb035f81955bcc6d0!2sICGC%20Elim%20Temple!5e0!3m2!1sen!2sgh!4v1581566636006!5m2!1sen!2sgh"
-              width="100%"
-              frameborder="0"
-              style="border:0;"
-              allowfullscreen=""
-            ></iframe>
+<!-- mobile -->
+<div class="d-none d-block d-sm-none  text-center">
+  <h1 class="title2 font-italic display-4 mb-4">Contacts</h1>
+  <div class="container ">
+    <div class=" bg-white rounded   showy2 ">
+      <div class="card-body">
+
+                <div class="row ">
+                  <div class="col-6 col-md-6 mt-3">
+                    <div class="pulse-icon   ">
+                      <div class="icon-wrap">
+                        <i class="icon fa fa-home" aria-hidden=""></i>
+                      </div>
+                      <div class="mt-3">
+                        <h4>Physical Address</h4>
+                        <p>
+                          Fifth Street,<br />
+                          Methodist Junction,
+                          Dawhenya
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-6 col-md-6 mt-3 ">
+                    <div class="pulse-icon  ">
+                      <div class="icon-wrap">
+                        <i class="icon fa fa-phone  " aria-hidden=""></i>
+                      </div>
+                      <div class="mt-3">
+                        <h4>Phone</h4>
+                        <p>
+                          +233 244 434 000<br />
+                          +233 506 554 222<br />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="row">
+                  <div class="col-6 col-md-6 mt-3">
+                    <div class="pulse-icon   ">
+                      <div class="icon-wrap">
+                        <i class="icon fas fa-envelope" aria-hidden=""></i>
+                      </div>
+                      <div class="mt-3">
+                        <h4>Email</h4>
+                        <p>elimtemple@gmail.com<br /></p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-6 col-md-6 mt-3 ">
+                    <div class="pulse-icon  ">
+                      <div class="icon-wrap">
+                        <i class="icon fas fa-map-marker-alt  " aria-hidden=""></i>
+                      </div>
+                      <div class="mt-3">
+                        <h4>Ghana Post GPS</h4>
+                        <p>GN-0336-2300</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="row">
+                  <div class="col-12 col-md-12 mt-3">
+                    <div class="pulse-icon  ">
+                      <div class="icon-wrap">
+                        <i class="icon fas fa-map-marker-alt  " aria-hidden=""></i>
+                      </div>
+                      <div class="mt-3">
+                        <h4>Google Maps</h4>
+    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.7082016752634!2d0.04818321451769578!3d5.755074795829232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102080ebf84333ef%3A0xb035f81955bcc6d0!2sICGC%20Elim%20Temple!5e0!3m2!1sen!2sgh!4v1581566636006!5m2!1sen!2sgh"
+                    width="100%"
+                    frameborder="0"
+                    style="border:0;"
+                    allowfullscreen=""
+                  ></iframe>
+                </div>
+
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+          </div>
+
+
+      <!-- mobile -->
     </div>
-    <!-- mobile -->
+  </div>
+</div>
+
     <!-- Guidance -->
     <div class="orange py-4">
       <div class="container text-center">
@@ -567,7 +762,7 @@
           </div>
 
           <div class="col-md-12">
-            <img              src="https://i.ibb.co/ynpt3vn/logo6.png" alt="Logo" width="200" class="" />
+            <img src="assets/img/logo6.png" alt="Logo" width="200" class="" />
           </div>
 
           <div class="col-md-12 mb-1">
